@@ -16,19 +16,19 @@
         <tr>
           <th>Nome</th>
           <th>Cognome</th>
-          <th>Età</th>
+          <th>Data di nascita</th>
           <th>Sesso</th>
         </tr>
         @foreach($students as $student)
           <tr>
             <td>{{$student->name}}</td>
             <td>{{$student->lastname}}</td>
-            <td>{{$student->age}}</td>
+            <td>{{$student->date_of_birth}}</td>
             <td>{{$student->gender}}</td>
           </tr>
         @endforeach
       </table>
-      
+
     </div>
 
   </body>

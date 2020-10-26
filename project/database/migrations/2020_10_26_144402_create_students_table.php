@@ -17,7 +17,7 @@ class CreateStudentsTable extends Migration
             $table->id();
             $table->string("name", 30);
             $table->string("lastname", 30);
-            $table->integer("age");
+            $table->date("date_of_birth");
             $table->string("gender", 5);
             $table->timestamps();
         });
